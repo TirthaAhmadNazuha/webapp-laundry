@@ -16,7 +16,7 @@ class HomePage extends BaseComponent {
           <h1 className="back-logo-text">Bubbles Laundry</h1>
           <div className="user-profile">
             <div className="picture-user">
-              <img src="./public/elaina-profile.jpg" alt="" />
+              <img src="/elaina-profile.jpg" alt="" />
             </div>
             <b>Sehat selalu</b>
             <Await resolve={userRes} onPending={<LoadingPlaceholder width="150px" height="22px" />}>
